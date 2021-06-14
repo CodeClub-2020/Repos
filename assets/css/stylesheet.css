@@ -1,1 +1,53 @@
+/* Custom External CSS */
 
+/* Mains */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", Sans-Serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Montserrat", Sans-Serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 {
+  font-fize: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+a {
+  color: #4A4A4A;
+  border-bottom: 2px solid transparent;
+  transition: all .2s ease-in-out;
+}
+
+a:hover {
+  color: #4287F5;
+  border-bottom: 2px solid #4287F5;
+}
