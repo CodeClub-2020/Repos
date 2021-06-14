@@ -1,6 +1,3 @@
-<!-- PHP Server (Connection to database) -->
-<?php require('assests/php/server.php'); ?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -32,15 +29,3 @@
     </header>
   </body>
 </html>
-
-<?php
-// Copyright Details
-
-$licence = ('licence.php');
-  require($licence); 
-    if(emtpy($licence)) {
-      header("Location: /auth/index.php", true, 301);
-      exit();
-     } else {
-     echo "Software Successfully Authenticated";
-    ?>
